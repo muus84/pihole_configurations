@@ -1,4 +1,9 @@
-## pihole configuration repo
+## pihole installation
+A High Endurance microSD card should definitely be used. [Amazon link](https://www.amazon.de/gp/product/B07PLVV1QH/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+1. Install pi image image: https://www.raspberrypi.org/software/
+2. Install pihole: https://docs.pi-hole.net/main/basic-install/
+
+## pihole configuration 
 Contains all need information to get my pihole up and running (NO BACKUPS)
 
 ### Blacklisting domain based
