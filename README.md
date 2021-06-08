@@ -1,5 +1,5 @@
 # description 
-Contains all need information to get my pihole up and running (NO BACKUPS)
+Contains all needed information to get a pihole up and running (NO BACKUPS)
 
 ## pihole installation
 A High Endurance microSD card should definitely be used. [Amazon link](https://www.amazon.de/gp/product/B07PLVV1QH/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
