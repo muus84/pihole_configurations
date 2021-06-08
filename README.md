@@ -2,7 +2,7 @@
 Contains all need information to get my pihole up and running (NO BACKUPS)
 
 #### Blacklisting domain based
-[Unified hosts + fakenews + gambling] (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
+[Unified hosts + fakenews + gambling](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 Source: https://github.com/StevenBlack/hosts
 
 #### Blacklisting regex filter based (one filter rule per line)
