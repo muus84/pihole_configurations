@@ -1,12 +1,12 @@
-### pihole configuration repo
+## pihole configuration repo
 Contains all need information to get my pihole up and running (NO BACKUPS)
 
-#### Blacklisting domain based
+### Blacklisting domain based
 [Unified hosts + fakenews + gambling](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 
 Source: https://github.com/StevenBlack/hosts
 
-#### Blacklisting regex filter based (one filter rule per line)
+### Blacklisting regex filter based (one filter rule per line)
 ```
  ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
  (.+[_.-])?telemetry[_.-]
@@ -18,9 +18,9 @@ Source: https://github.com/StevenBlack/hosts
  ^analytics?[_.-]
 ```
 
-### Tips and tricks
+## Tips and tricks
 
-#### How to disable pihole for 5 minutes using the pihole api token
+### How to disable pihole for 5 minutes using the pihole api token
 1.  Get your API token http://{PIHOLEIP}/admin/scripts/pi-hole/php/api_token.php
 2.  Copy token
 3.  http://{PIHOLEIP}/admin/api.php?disable=300&auth={APITOKEN}
