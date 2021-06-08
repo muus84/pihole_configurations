@@ -15,7 +15,7 @@ Contains all need information to get my pihole up and running (NO BACKUPS)
 Source: https://github.com/StevenBlack/hosts
 
 ### Blacklisting regex filter based (one filter rule per line)
-```
+```regex
  ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
  (.+[_.-])?telemetry[_.-]
  ^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
