@@ -12,11 +12,13 @@ curl -sSL https://install.pi-hole.net | bash
 ## pihole configuration 
 
 ### blacklisting domain based
+* Add the blacklist here: http://{PIHOLEIP}/admin/groups-adlists.php
 [Unified hosts + fakenews + gambling](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 
 Source: https://github.com/StevenBlack/hosts
 
 ### blacklisting regex filter based (one filter rule per line)
+* Add the regex filters here: http://{PIHOLEIP}/admin/groups-domains.php?type=black
 ```regex
  ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
  (.+[_.-])?telemetry[_.-]
